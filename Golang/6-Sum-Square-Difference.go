@@ -11,7 +11,7 @@ func main() {
 	sum:=math.Pow((number*(number+1))/2, 2)
 	var i float64
 	for i=1; i<=number; i++{
-	  sum-=i*i
+		sum-=i*i
 	}
 	fmt.Println(sum)
 }
